@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+         <title>CubeBot</title>
+        <!-- Start of library imports -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <!-- End of library imports -->
+    </head>
+
+    <style>
+      .padded-button{
+          margin-top: 3px;
+          margin-bottom: 3px;
+      }
+    </style>
+    <body>
+      <div id="container" class="col-md-10 col-md-offset-1">
+        <center>
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h4>CubeBot</h1></div>
+            <div class="panel-body">
+              <div class="col-md-12">
+                <a id="move-forward" class="btn btn-lg btn-primary padded-button"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+              </div>
+              <div class="col-md-12">
+                <a id="move-left" class="btn btn-lg btn-primary"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                <a id="light" class="btn btn-lg btn-primary"><i class="fa fa-circle" aria-hidden="true"></i></a>
+                <a id="move-right" class="btn btn-lg btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+              <div class="col-md-12">
+                <a id="move-backward" class="btn btn-lg btn-primary padded-button"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+      <!-- Start of JS imports -->
+      <script src="js/app.js"></script>
+      <!-- End of JS imports -->
+    </body>
+</html>
