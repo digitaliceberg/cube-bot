@@ -51,9 +51,17 @@ $(document).mouseup(function(){
 function submit_motion(direction){
   var motion = {direction: direction};
   $.ajax({
-   type:"GET",
+   type:"POST",
    url: "/api/motion",
    data: JSON.stringify(motion),
+   processData: false,
+   });
+}
+
+function toggle_lights(){
+  $.ajax({
+   type:"GET",
+   url: "/api/lights",
    processData: false,
    });
 }
